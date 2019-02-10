@@ -5,6 +5,7 @@
 ### Humhub installation 
 
 Follow instructions of a regular HumHub [Installation & Administration](http://docs.humhub.org/admin-README.html)
+Humhub version updates can be done directly via Humhub administration UI 
 
 ### Coinsence modules integration 
 
