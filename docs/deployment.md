@@ -19,4 +19,10 @@ return [
     ],
 ]
 ```
+### Updating 
 
+Either HumHub or modules can be updated through the Administration UI. (Recommended) 
+
+Or you can just make backups and reinstall Humhub and then git clone modules directly from their repositories as configure them as mentioned above. 
+
+For further information please check the [Humhub Manual Update Section](http://docs.humhub.org/admin-updating.html)
