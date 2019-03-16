@@ -36,6 +36,7 @@ Not yet configured
 
 ##### MySQL configs:
 account infos: `/home/xcoin-test/.my.cnf`
+
 PhpMyAdmin: https://test.coinsence.org/phpmyadmin
 
 ### Community Server (Prod):
@@ -48,6 +49,7 @@ PhpMyAdmin: https://test.coinsence.org/phpmyadmin
 
 ##### MySQL configs:
 account infos: `/home/coinsence/.my.cnf`
+
 PhpMyAdmin: https://community.coinsence.org/phpmyadmin
 
 ## How to update
