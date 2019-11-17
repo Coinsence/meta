@@ -1,6 +1,6 @@
 # Coinsence
 
-Coinsence is a collaboration platform that allows communities to issue their own tokens to reward contribution. 
+Coinsence is a collaboration platform that allows communities to issue their own tokens to mobilize people, engage resources and reward contributions. 
 
 This is meta product development repository containing: 
 
