@@ -18,7 +18,7 @@ Basically, HumHub - Open Source Social Network is enhanced with further modules 
 - spaces to collect coins via. crowd-funding. 
 - User and spaces to share resources, goods, products and services in a common marketplace. 
 
-What is the benefit of crowd-fund?
+*What is the benefit of crowd-fund?*
 Crowdfunding enables spaces to exchange coins as instrument to exchange value. Further more, crowd-funding enables community members to decide collectively over investment and project support e.g. which projects shall receive community coins.  
 Via crowd-funding, projects (e.g. space_X) can get community coins (space_Y coins) which they can use to get resources from the marketplace. In exchange, space_Y distributes during crowd-funding process space_Y coins to crowd-investors. User can allocate space_Y coins to space_X and get in exchange space_X coins.
 Space_Y can also distribute space_Y coins to other contributors. 
