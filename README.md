@@ -5,16 +5,16 @@ This is meta product development repository.
 
 # Table of content
 
-- **[Introduction](#Introduction)**
-- **[Repositories](#Repositories)**
-- **[Development](#Development)**
-	- **[Cloning project](#Cloning_project)**
-	- **[Running locally](#Running_locally)**
-	- **[Installing modules](#Installing_modules)**
-	- **[Testing](#Testing)**
-- **[Open source community](#Open_source_community)**
-	- **[Issues](#Issues)**
-	- **[Contributing](#Contributing)**
+- **[Introduction](#introduction)**
+- **[Repositories](#repositories)**
+- **[Development](#development)**
+	- **[Cloning project](#cloning-project)**
+	- **[Running locally](#running-locally)**
+	- **[Installing modules](#installing-modules)**
+	- **[Testing](#testing)**
+- **[Open source community](#open-source-community)**
+	- **[Issues](#issues)**
+	- **[Contributing](#contributing)**
 
 
 # Introduction
