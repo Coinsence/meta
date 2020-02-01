@@ -1,11 +1,25 @@
-# Coinsence
+# Coinsence ![GitHub](https://img.shields.io/github/license/Coinsence/coinsence-monorepo.svg)
 
-Coinsence is a collaboration platform that allows communities to issue their own tokens to mobilize people, engage resources and reward contributions. 
+This is meta product development repository.
 
-This is meta product development repository containing: 
 
-- [Technical Docs](https://github.com/Coinsence/meta/tree/master/docs)
-- [Technical Development issues](https://github.com/Coinsence/meta/issues)
+# Table of content
+
+- **[Introduction](#Introduction)**
+- **[Repositories](#Repositories)**
+- **[Development](#Development)**
+	- **[Cloning project](#Cloning_project)**
+	- **[Running locally](#Running_locally)**
+	- **[Installing modules](#Installing_modules)**
+	- **[Testing](#Testing)**
+- **[Open source community](#Open_source_community)**
+	- **[Issues](#Issues)**
+	- **[Contributing](#Contributing)**
+
+
+# Introduction
+
+Coinsence is a collaboration platform that allows communities to issue their own tokens to mobilize people, engage resources and reward contributions.
 
 To test the current solution, everybody is welcome to join the network via their email adress under www.coinsence.org
 
@@ -32,11 +46,103 @@ Via crowd-funding, projects (e.g. space_x) can get community coins (e.g. space_y
 **What is the benefit of the marketplace?**
 Communities can share resources via. the marketplace. User making offers in the marketplace can set the price in a specific space coins as exchange unit or can set the discount they offer in exchange of specific space coins.
 
-**The following are the relavant repos for the project**
-- HumHub fork as basis for the social network https://github.com/Coinsence/humhub
-- Module enabling coin creation and exchange https://github.com/Coinsence/humhub-modules-xcoin 
-- Smart contracts integration with humhub-modules-xcoin https://github.com/Coinsence/humhub-modules-ethereum
-- Smart contracts used for coinsence project https://github.com/Coinsence/coinsence-monorepo
-- Task module enhanced with coin functionalities https://github.com/Coinsence/humhub-modules-tasks
-- Mobile application https://github.com/Coinsence/coinsence-wallet
+
+# Repositories
+
+##### [humhub](https://github.com/Coinsence/humhub):
+
+HumHub fork as basis for the social network.
+
+##### [humhub-modules-xcoin ](https://github.com/Coinsence/humhub-modules-xcoin):
+
+Module enabling coin creation and exchange.
+
+##### [humhub-modules-ethereum](https://github.com/Coinsence/humhub-modules-ethereum):
+
+Smart contracts integration with humhub-modules-xcoin.
+
+##### [coinsence-monorepo](https://github.com/Coinsence/coinsence-monorepo):
+
+Smart contracts used for coinsence project.
+
+##### [coinsence-wallet](https://github.com/Coinsence/coinsence-wallet):
+
+Coinsence ERC20 mobile wallet.
+
+##### [coinsence-docker](https://github.com/Coinsence/coinsence-docker):
+
+A coinsence docker implementation.
+
+
+# Development
+
+So below are the main steps in order to get Coinsence project started & running.
+
+Before starting, you can choose whether you should work using [docker](https://github.com/Coinsence/coinsence-docker) to automate some configurations or do all of that manually, either ways you should get the same results.
+
+
+### Cloning project
+
+First thing first, start by cloning the humhub repo locally.
+
+	git clone https://github.com/Coinsence/humhub
+
+Alternatievely, you can also fork it first to your git, and clone the forked repo locally.
+
+	git clone https://github.com/username/humhub
+
+### Running locally
+
+To install humhub locally, make sure first that you have the proper dev environment, to do so check the official humhub [documentation](http://docs.humhub.org/admin-requirements.html).
+
+Once you've met all the requirements, move on to the installation process following the official [guide](http://docs.humhub.org/admin-installation.html).
+
+Finally, you can finish off the installation with some basic configurations using -you guessed it- the official [guide](http://docs.humhub.org/admin-installation-configuration.html).
+
+### Installing modules
+
+Installing modules can be done using two ways, either automatically through *Browse online* tab in the *Administration menu* or manually by placing it under a know path, this latter can be configured using this small code block in the `protected/config/common.php` file (see also [docs](http://docs.humhub.org/dev-environment.html#external-modules-directory)):
+
+	return [
+        'params' => [
+            'moduleAutoloadPaths' => ['/some/folder/modules'],        
+        ],
+    ]
+
+To check if module is installed or detected by humhub, click on Modules in the *Administration menu*, if the installation is successful, you'll see your installed module, to start using it, just click `Enable` and there you have it.
+
+
+### Testing
+
+Humhub comes prebundled with codeception framework for testing, you can check some of the implemented tests in `tests` folder under the root of the built-in/custom modules.
+
+Just follow along those tests and start rocking some tests.
+
+Some modules (xcoin & ethereum) comes pre-configured with travis-ci and coveralls, so don't bother with that if you're developing some tests for those modules.
+
+Also [here](http://docs.humhub.org/dev-testing.html)'s the official documentation used to develop some of the test suites.
+
+
+
+# Open source community
+
+As a open source community, we are always open to discussions and changes, for more info please check out code of conduct [document](https://github.com/Coinsence/meta/blob/master/CODE_OF_CONDUCT.md).
+
+### Issues
+
+We keep track of project global [issues](https://github.com/Coinsence/meta/issues) in a separate repository named `meta`, along with repositories issues.
+
+If you come across an issue with any of the aformentioned repos, do a search in the Issues tab of that repo to make sure it hasn't been reported before. Follow these steps to help us prevent duplicate issues and unnecessary notifications going to the many people watching this repo:
+
+- If the issue you found has been reported and is still open, and the details match your issue, give a "thumbs up" to the relevant posts in the issue thread to signal that you have the same issue. No further action is required on your part.
+- If the issue you found has been reported and is still open, but the issue is missing some details, you can add a comment to the issue thread describing the additional details.
+- If the issue you found has been reported but has been closed, you can comment on the closed issue thread and ask to have the issue reopened because you are still experiencing the issue. Alternatively, you can open a new issue, reference the closed issue by number or link, and state that you are still experiencing the issue. Provide any additional details in your post so we can better understand the issue and how to fix it.
+
+### Contributing
+
+In order to contribute to the coinsence project, please fork the targeted repository and make a PR.
+
+Thanks for taking time reading this wonderful document.
+
+Written with Love & Pain.
 
